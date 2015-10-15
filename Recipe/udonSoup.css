@@ -1,0 +1,96 @@
+/* CSS Stylesheet for Udon Recipe */
+
+h1 {
+	font-family: Copperplate Gothic Light, Century Gothic, Courier; 
+	font-size: 35px;
+	color: #fdf5c9;
+	text-decoration: overline;
+	text-shadow: 2px 2px 3px black;
+}
+
+/* Formatting for green sections */
+
+section {  
+	background-color: #c2f2d0;
+	opacity: 0.9;
+	width: 500px;
+	padding: 30px 80px 40px 50px;
+	margin: 30px;
+	font-family: Verdana; 
+	border-radius: 15px;
+}
+
+/* Formatting for pink sections */
+
+p {
+	background-color: #ffc5d9;
+	opacity: 0.95;
+	width: 500px;
+	padding: 30px;
+	margin: 30px;
+	font-family: Verdana; 
+	border-radius: 15px;
+}
+div {
+	background-color: #ffc5d9;
+	opacity: 0.95;
+	width: 100px;
+	padding: 10px 30px 10px 30px;
+	margin: 30px;
+	font-family: Verdana; 
+	border-radius: 10px;
+	display: inline-block;
+}
+
+/* Formatting for "Click to hide photos" button */
+
+.button {
+	width: 250px;
+	margin-left: 55px; 
+}
+
+/* Get rid of bullet points b/c there's a checkbox instead */ 
+
+#ingredients {
+	list-style-type: none;
+}
+
+/* Formatting for selected directions (jQuery) */
+
+.highlighted {
+	background-color: #ffc5d9;
+}
+
+/* Formatting for link at bottom of page */
+
+a:link {
+	text-decoration: none;
+	color: green
+}
+a:hover {
+	font-family: Impact;
+	color: green; 
+	text-decoration: underline;
+}
+a:visited {
+	colour: brown;
+}
+
+/* Formatting for images */
+
+img {
+	border: 2px solid black;
+	width: 625px; 
+	margin: 10px 10px 10px 30px; 
+	border-radius: 15px
+}
+#soupPic {
+	box-shadow: 1px 1px 50px #fdf5c9;
+}
+#soupPic:hover {
+	box-shadow: 4px 4px 50px #c2f2d0;
+}
+#tofuPic:hover {
+	transform: scale(1.05,1.05);
+	transition: 1s;
+}
